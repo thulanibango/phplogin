@@ -7,10 +7,15 @@
     * Return rows and results
 */
 class Database {
-    private $host = 'localhost';
-    private $user = 'root';
-    private $pass = '';
-    private $dbname = 'login';
+    private $host = 'localhost:3306';
+    private $user = 'fagqxmzq_phplogin';
+    private $pass = '7@?5R~(VsEQ9';
+    private $dbname = 'fagqxmzq_php';
+
+    // private $host = 'localhost';
+    // private $user = 'root';
+    // private $pass = '';
+    // private $dbname = 'login';
 
     //Will be the PDO object
     private $dbh;
